@@ -51,7 +51,7 @@ The output MUST be a strict JSON array of 3 objects in the following format:
           content: 'Generate the active recall micro-quiz now. Return ONLY valid JSON.',
         },
       ],
-      model: 'meta-llama/llama-4-scout-17b-16e-instruct',
+      model: 'openai/gpt-oss-20b',
       response_format: { type: 'json_object' },
       max_tokens: 1024,
     });

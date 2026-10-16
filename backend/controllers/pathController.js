@@ -94,7 +94,7 @@ Example output format:
           content: `Generate a custom learning path for "${topic}" based on this context: "${currentKnowledge}". It must span exactly ${days} days. Return ONLY valid JSON.`,
         },
       ],
-      model: 'meta-llama/llama-4-scout-17b-16e-instruct',
+      model: 'openai/gpt-oss-20b',
       max_tokens: 4096,
       response_format: { type: 'json_object' },
     });
